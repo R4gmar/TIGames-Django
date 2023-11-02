@@ -1,0 +1,77 @@
+
+body {
+    background: #696969;
+}
+
+aside {
+    float: left;
+    background: black;
+    width: 20%;
+    padding: 2.5%;
+    height: 1000vh;
+    border-right: 5px solid #4d4d4d;
+    color: white;
+}
+aside img {
+    width: 80px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 33px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 15px
+}
+aside .logo h3 {
+    margin: top 50px;
+    font-size: 28px
+}
+
+.alert-warning {
+    width: 400px;
+    margin: 20px auto; /* Центрировать блоки по горизонтали */
+    text-align: left;
+    float: center;
+    margin-right: 400px;
+
+}
+
+h1 {
+    margin-top: 20px; /* Пример значения отступа сверху, можно изменить по вашему усмотрению */
+    text-align: center; /* Для центрирования текста */
+
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 15px;
+    transition: all .6s ease
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+form {
+    margin-left:32%;
+    width: 500px;
+    margin-top: 50px;
+}
+
